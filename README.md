@@ -19,7 +19,7 @@ Remember, every problem is an opportunity to learn and grow. We're excited to se
 
 
 # Issue Template
-
+```markdown
 ### Issue Title: [Lab Number] - Brief Description
 
 **Lab Number:** (e.g., Lab 0, Lab 1, etc.)
@@ -50,4 +50,4 @@ Describe what actually happened. Include the full output of any commands run, if
 
 **Attempts to Resolve:**
 List any steps you have already taken in an attempt to resolve the issue. This helps avoid duplication of effort and may provide insight into the problem.
-
+```
