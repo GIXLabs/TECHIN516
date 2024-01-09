@@ -3,6 +3,21 @@
 # Dual booting and ROS installation
 [Dual booting and ROS installation](https://gixlabs.github.io/how_to/ros_setup.html)
 
+**Need Assistance? We're Here to Help!**
+
+In our robotics lab course, encountering challenges is a part of the learning journey. We understand that issues can arise, and we are fully committed to helping you navigate and resolve them. Whether it's a technical glitch, a conceptual query, or something in between, our team is here to support you.
+
+**How to Let Us Know About Your Issue:**
+
+If you encounter a problem, we encourage you to report it through our structured issue format on GitHub. This approach ensures that we receive all the necessary details to understand and address your concerns effectively. Please include clear descriptions, error messages, screenshots, and any other relevant information. This detailed approach helps us to help you more efficiently.
+
+**Peer Collaboration: A Powerful Tool:**
+
+In addition to our support, we strongly encourage you to collaborate with your classmates. Often, the best solutions and learning experiences come from working together. If you see a classmate facing an issue that you've encountered or know about, don't hesitate to offer your insights. This collaborative spirit not only fosters a supportive learning environment but also enhances your problem-solving skills and deepens your understanding of the course material.
+
+Remember, every problem is an opportunity to learn and grow. We're excited to see how you tackle these challenges and are here to guide you every step of the way!
+
+
 # Issue Template
 
 ### Issue Title: [Lab Number] - Brief Description
