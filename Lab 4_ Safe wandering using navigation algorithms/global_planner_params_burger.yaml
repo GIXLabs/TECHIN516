@@ -1,0 +1,17 @@
+GlobalPlanner:
+
+
+# From the wiki.ros.org page on global_planner parameters:
+  allow_unkown: true # default true
+  use_dijkstra: true # default true
+  use_quadratic: true # default true
+  use_grid_path: false # default false
+  default_tolerance: 0.0 # default 0.0
+  visualize_potential: true # default false. For our lab, we will keep this one as true
+  publish_potential: true # default true
+  old_navfn_behavior: false #if you want to mirror previous navfn behavior, use defaults for all other parameters
+  lethal_cost: 253 # default 253
+  neutral_cost: 50 # default 50
+  cost_factor: 3 # default 3
+  orientation_mode: 0 # (None=0, Forward=1, Interpolate=2, ForwardThenInterpolate=3, Backward=4, Leftward=5, Rightward=6)
+  orientation_window_size: 1 # default 1
