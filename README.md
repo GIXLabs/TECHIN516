@@ -1,9 +1,9 @@
 
 # TECHIN 516 24W
-# Dual booting and ROS installation
+**Dual booting and ROS installation**
 [Dual booting and ROS installation](https://gixlabs.github.io/how_to/ros_setup.html)
 
-**Need Assistance? We're Here to Help!**
+# Need Assistance? We're Here to Help!**
 
 In our robotics lab course, encountering challenges is a part of the learning journey. We understand that issues can arise, and we are fully committed to helping you navigate and resolve them. Whether it's a technical glitch, a conceptual query, or something in between, our team is here to support you.
 
