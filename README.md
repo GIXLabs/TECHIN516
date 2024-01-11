@@ -29,6 +29,9 @@ Please provide a clear and concise description of the issue you're experiencing.
 
 **Error Messages / Logs:**
 If applicable, include the exact error messages or logs you encountered. This information is crucial for diagnosing issues related to code or system errors.
+```
+put the code content here
+```
 
 **Screenshots / Images:**
 Attach any screenshots or images that help illustrate the issue. This could include:
