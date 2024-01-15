@@ -8,6 +8,7 @@
 In our robotics lab course, encountering challenges is a part of the learning journey. We understand that issues can arise, and we are fully committed to helping you navigate and resolve them. Whether it's a technical glitch, a conceptual query, or something in between, our team is here to support you.
 
 **Have You Checked Our FAQs?**
+
 Before you reach out, take a peek at our Frequently Asked Questions (FAQs). At each lab session, we have a set of FAQs tailored to the specific lab content. These FAQs might already have the answers to your questions, saving you time and giving you instant insights!
 
 **How to Report Your Issue:**
@@ -41,4 +42,3 @@ Have you tried any solutions or troubleshooting steps? Let us know what you’ve
 
 Don't worry if you're not sure about how to fill out everything. Just give us a brief overview of the issue, and we'll work it out together!
 
-** 
