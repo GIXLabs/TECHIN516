@@ -41,4 +41,8 @@ sudo apt install ros-noetic-turtlebot3-bringup
 
 *This command installs the necessary TurtleBot3 bringup package, which should resolve the launch file error.*
 
+**Q6: How can I read rqt_graph?
+*A6: Rqt graph is a useful tool to see what’s happening in your ROS graph. Please refer to the following link to learn more:
+[rqt_graph] (https://roboticsbackend.com/rqt-graph-visualize-and-debug-your-ros-graph/#:~:text=Rqt%20graph%20is%20a%20GUI,be%20displayed%20inside%20their%20namespace.)
+
 
