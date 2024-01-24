@@ -2,4 +2,4 @@
 
 **Q1: How to set up on Mac for remoting physical robot?**
 
-*Redirect to this [Link](<../Lab 2_ ROS simulation for mapping & localization/readme.md>)*
+*A1: Redirect to this [Link](https://uwnetid-my.sharepoint.com/:w:/g/personal/maason_uw_edu/EQKBxZOyUu5NhPEbZRw1p9IBGbxEW1CBAGrGSDhNtLLZSQ?e=bWcJCs)*
