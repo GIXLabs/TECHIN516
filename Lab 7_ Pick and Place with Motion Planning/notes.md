@@ -12,4 +12,4 @@ Please download a copy of the Excel file. Otherwise everyone will try to edit it
 - When you copy the table from Excel to your own csv file, you'll need to replace all of the spacing with commas (no comma at the end of line though).
 
 # Editing start_gazebo.launch
-Make sure to add the line in the bottom section (inside the <include>), or the world will spawn without anything in it
+Make sure to add the line in the bottom section (inside the `<include>`), or the world will spawn without anything in it
