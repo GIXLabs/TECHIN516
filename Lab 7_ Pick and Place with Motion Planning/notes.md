@@ -5,7 +5,7 @@ It doesn't matter, but you'll need to know where you've placed it so you can giv
 Please download a copy of the Excel file. Otherwise everyone will try to edit it at once.
 
 # Running plot_trajectory.py
-- Your .csv file shoudl be in the same directory as this script.
+- Your .csv file should be in the same directory as this script.
 - Install pandas before running it
     - `pip install pandas`
 - Include the headers (time,x,y,z) in the csv file
