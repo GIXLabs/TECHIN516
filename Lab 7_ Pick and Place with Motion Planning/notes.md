@@ -1,7 +1,7 @@
 # Where to put the code
 It doesn't matter, but you'll need to know where you've placed it so you can give the launch files the correct path.
 
-# CSV
+# Excel
 Please download a copy of the Excel file. Otherwise everyone will try to edit it at once.
 
 # Running plot_trajectory.py
