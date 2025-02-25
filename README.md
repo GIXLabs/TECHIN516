@@ -14,4 +14,4 @@ Clone this repo to get started.
 git clone https://github.com/GIXLabs/TECHIN516.git
 ```
 
-Please reach out to the professor is you have any questions about this class.
+Please reach out to the professor if you have any questions about this class.
