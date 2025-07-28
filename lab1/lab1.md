@@ -36,33 +36,33 @@ You do not need to complete any tutorials using C++.
 Copy and paste the table into your lab report to fill-in.  
 **Hint:** for most commands and programs, you can append `--help` or `-h` to learn more about it; e.g. `ls --help`.
 
-| Command | Description | Example |
-| - | - | - | 
-| `ls` | | | 
-| `ls -la` | | |
-| `cd` | | | 
-| `mv` | | | 
-| `rm` | | | 
-| `rm -rf` | | |
-| `cp` | | | 
-| `cp -r` | | |
-| `cat` | | | 
-| `touch` | | | 
-| `source` | | | 
-| `export` | | |
-| `grep` | | |
-| `echo` | | |
-| `sudo` | | |
-| `chmod` | | |
-| `chown` | | |
-| `*` (e.g. `rm ./*`) | | | 
-| `\|` (e.g. `cat ./fil1.txt \| grep search`) | | | 
-| `.` (e.g. `python ./script.py`) | | | 
-| `..` (e.g. `cd ..`) | | | 
-| `~` (e.g. `source ~/.bashrc`)| | | 
-| `>` (e.g. `cat ./file1.txt > ./file2.txt`) | | | 
-| `>>` (e.g. `cat ./file1.txt >> ./file2.txt`) | | | 
-| `!!` (e.g. `sudo !!`)| | | 
+    | Command | Description | Example |
+    | - | - | - | 
+    | `ls` | | | 
+    | `ls -la` | | |
+    | `cd` | | | 
+    | `mv` | | | 
+    | `rm` | | | 
+    | `rm -rf` | | |
+    | `cp` | | | 
+    | `cp -r` | | |
+    | `cat` | | | 
+    | `touch` | | | 
+    | `source` | | | 
+    | `export` | | |
+    | `grep` | | |
+    | `echo` | | |
+    | `sudo` | | |
+    | `chmod` | | |
+    | `chown` | | |
+    | `*` (e.g. `rm ./*`) | | | 
+    | `\|` (e.g. `cat ./fil1.txt \| grep search`) | | | 
+    | `.` (e.g. `python ./script.py`) | | | 
+    | `..` (e.g. `cd ..`) | | | 
+    | `~` (e.g. `source ~/.bashrc`)| | | 
+    | `>` (e.g. `cat ./file1.txt > ./file2.txt`) | | | 
+    | `>>` (e.g. `cat ./file1.txt >> ./file2.txt`) | | | 
+    | `!!` (e.g. `sudo !!`)| | | 
 
 
 ## FAQ

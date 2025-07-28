@@ -54,21 +54,23 @@ Copy this script into your `lab3` ros2 python package, complete all `TODOs`, and
 
 ## Deliverables
 
-1. Write down which file you modifed to remove the dock from simulation, and copy in the lines you commented out.
+1. How is the turtlebot4_ws mounted into the devcontainer?  
 
-2. Submit your modified code that you used to plot the robot's position.  
+2. Write down which file you modifed to remove the dock from simulation, and copy in the lines you commented out.
 
-3. Attach the plot from running your circle_driver script.
+3. Submit your modified code that you used to plot the robot's position.  
 
-4. Submit your modified `.sdf` file to show how you added the cube.  
+4. Attach the plot from running your circle_driver script.
 
-5. Submit your modified open-loop code,
+5. Submit your modified `.sdf` file to show how you added the cube.  
 
-6. Attach your plots from running open-loop control.
+6. Submit your modified open-loop code,
 
-7. Submit your modified closed-loop code.  
+7. Attach your plots from running open-loop control.
 
-8. Attach your plots from running closed-loop control. 
+8. Submit your modified closed-loop code.  
+
+9. Attach your plots from running closed-loop control. 
 
 
 ## FAQ

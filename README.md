@@ -5,7 +5,7 @@ Welcome to the first GIX MSTI robotics studio!
 Get started by cloning this repo with its submodules
 
 ```bash
-git clone --recursive 
+git clone --recursive https://github.com/GIXLabs/TECHIN516.git
 ```
 
 
