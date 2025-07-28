@@ -1,0 +1,12 @@
+[submodule "turtlebot4_ws/src/turtlebot4"]
+	path = turtlebot4_ws/src/turtlebot4
+	url = https://github.com/turtlebot/turtlebot4.git
+	branch = humble
+[submodule "turtlebot4_ws/src/turtlebot4_simulator"]
+	path = turtlebot4_ws/src/turtlebot4_simulator
+	url = https://github.com/turtlebot/turtlebot4_simulator.git
+	branch = humble
+[submodule "turtlebot4_ws/src/turtlebot4_desktop"]
+	path = turtlebot4_ws/src/turtlebot4_desktop
+	url = https://github.com/turtlebot/turtlebot4_desktop.git
+	branch = humble
