@@ -15,5 +15,13 @@
     "source=/dev,target=/dev,type=bind",
     "source=/etc/udev,target=/etc/udev,type=bind"
   ],
-  "postStartCommand": "bash -lc 'cd \"${containerWorkspaceFolder}\" && rosdep install --from-path src -yi --rosdistro humble && source /opt/ros/humble/setup.bash && colcon build --symlink-install'"
+  "postStartCommand": "bash -lc 'cd \"${containerWorkspaceFolder}\" && rosdep install --from-path src -yi --rosdistro humble && source /opt/ros/humble/setup.bash && colcon build --symlink-install'",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+      ]
+    }
+  },
 }

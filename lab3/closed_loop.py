@@ -25,7 +25,9 @@ class LaserCloseLoop(Node):
 
     def scan_callback(self, msg):
         # The index of the front value might need to be adjusted based on your sensor
-        current_front_value = msg.ranges[0]
+        ranges = msg.ranges
+        n_ranges = len(ranges)
+        current_front_value = ranges[int(n_ranges * 0.25)]
         self.front_value_list.append(current_front_value)
 
         if len(self.front_value_list) > 2:

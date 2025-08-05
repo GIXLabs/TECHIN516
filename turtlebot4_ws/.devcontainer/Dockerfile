@@ -39,6 +39,9 @@ RUN echo "source /opt/ros/${ROS_DISTRO}/setup.bash" >> ~/.bashrc
 
 RUN sudo apt-get update && sudo apt-get install -y \
     ros-dev-tools \
+    ros-humble-ros2-control \
+    ros-humble-ros2-controllers \
+    python-is-python3 \
     vim \
     tmux
 
