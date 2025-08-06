@@ -93,3 +93,4 @@ Many good short tutorials, good for getting more information on topics covered i
 
 [ROS2 Humble YouTube tutorials by Robotics Back-End](https://www.youtube.com/playlist?list=PLLSegLrePWgJudpPUof4-nVFHGkB62Izy)  
 Longer tutorials that roughly follow the official tutorials.
+ 
