@@ -1,5 +1,7 @@
 # Lab 3: Intro to Simulation
 
+![intro_to_simulation](/docs/turtle_in_the_matrix.png)
+
 In the previous lab, you ran the real robot without fully knowing what was going to happen.  
 This is fine for a small, slow Turtlebot, but can lead to serious injury in larger, faster systems.  
 This lab explores how to test robot systems in simulations, so we can safely try different control strategies.

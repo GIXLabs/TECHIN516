@@ -1,5 +1,7 @@
 # Lab 1: Intro to Linux and ROS
 
+![welcome_to_techin516](/docs/graphic_design_is_my_passion.png)
+
 Most robotics technologies are developed for Linux.  
 All labs for the GIX robotics studios are to be completed in the Ubuntu 22.04 distribution of Linux.  
 It is highly recommended to dual-boot your machine to run Ubuntu for full compatability with robotic technologies.  
@@ -72,11 +74,12 @@ Copy and paste the table into your lab report to fill-in.
 Alternatively, speak with the professor about borrowing a laptop from GIX IT for a short period of time.
 
 **Q:** Can I use a virtual machine instead of dual-booting?  
-**A:** Virtual machines work for some basic features of Ubuntu and ROS2, but they have issues utilizing GPUs for heavy computations and simulations, and have issues connecting to real robots.
+**A:** Virtual machines work for some basic features of Ubuntu and ROS2.  
+They have issues utilizing GPUs for heavy computations and simulations, and have issues connecting to real robots.
 
 **Q:** Can I use WSL2 insteaf of dual-booting?  
 **A:** There are mixed reviews online about how well ROS2 works on WSL.  
-You may try, but WSL unique issues will not be supported in this class. 
+You can try, but WSL unique issues will not be supported in this class. 
 
 
 ## Resources
