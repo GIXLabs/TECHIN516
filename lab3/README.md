@@ -86,10 +86,13 @@ Your ROS workspace will be saved because that folder is shared between the host 
 **All other files will be deleted!**  
 Make sure you backup anything you'll need later by moving the files to the shared workspace folder.  
 
+**Q:** Lidar works in the flat world, but not the cube world, why?  
+**A:** All fields in the sdf file need to be consistent, including the title and the world name or else you might experience strange issues.
+
 **Q:** How do I save my plots?  
 **A:** Matplotlib has a save button in the pop-up window.
 
-**Q:** Sometimes when I relaunch Gazebo, there's red text that says the "controllers" don't work?
+**Q:** Sometimes when I relaunch Gazebo, there's red text that says the "controllers" don't work?  
 **A:** Try re-launching. If that continues to not work, exit the devcontainer and rebuild it; just make sure you save all your stuff first.  
 
 
