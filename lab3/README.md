@@ -79,6 +79,10 @@ Copy this script into your `lab3` ros2 python package, complete all `TODOs`, and
 
 ## FAQ
 
+**Q:** I can't run the turtlebot packages, why not?  
+**A:** Make sure they were cloned in properly, this repo has the turtlebot packages as submodules.  
+Either re-clone the repo or update the submodules and rebuild the container.
+
 **Q:** Something went wrong inside the container and now I can't use ROS, what do I do?  
 **A:** If your container isn't working, you can always rebuilt by opening the `turtlebot_ws` folder outside of the container and selecting:  
 "Dev Container: Rebuild and Reopen in Container" from VS Code's command pallet (accessed with Control-Shift-P).  
@@ -97,6 +101,10 @@ Make sure you backup anything you'll need later by moving the files to the share
 
 
 ## Resources
+
+[Intro to Docker by typecraft](https://www.youtube.com/watch?v=Ud7Npgi6x8E)  
+Good overview of how Docker generally works.  
+Most of this is handled by VS Code or Cursor when we use devcontainers.  
 
 [Turtlebot 4 user manual](https://turtlebot.github.io/turtlebot4-user-manual/)  
 Any well-made robot you use should have documentation.  
