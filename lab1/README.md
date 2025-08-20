@@ -22,8 +22,8 @@ Thoroughly understanding the following content will make everything else in the 
 
 2. Install [ROS 2 Humble](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html).
 
-3. Complete all [ROS 2 Humble tutorials](https://docs.ros.org/en/humble/Tutorials.html) through "Creating custom msg and srv files".  
-You do not need to complete any tutorials using C++.
+3. Complete all [ROS 2 Humble tutorials](https://docs.ros.org/en/humble/Tutorials.html) through "Using `ros2doctor` to identify issues".  
+You do not need to complete any tutorials using C++, only the python tutorials.
 
 4. Read the remaining tutorials through the end of the intermediate section, "RViz".
 

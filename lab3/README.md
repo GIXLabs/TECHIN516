@@ -94,7 +94,8 @@ Make sure you backup anything you'll need later by moving the files to the share
 **A:** All fields in the sdf file need to be consistent, including the title and the world name or else you might experience strange issues.
 
 **Q:** How do I save my plots?  
-**A:** Matplotlib has a save button in the pop-up window.
+**A:** Matplotlib has a save button in the pop-up window.  
+You can also modify the code to save the plot automatically. 
 
 **Q:** Sometimes when I relaunch Gazebo, there's red text that says the "controllers" don't work?  
 **A:** Try re-launching. If that continues to not work, exit the devcontainer and rebuild it; just make sure you save all your stuff first.  
