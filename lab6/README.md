@@ -114,17 +114,31 @@ Copy/paste the contents into your notebook report.
 ## FAQ
 
 **Q:** I don't see my markers in Rviz but everything seems to be working, why?  
-**A:** Make sure you add a marker display to Rviz, then make sure it is set to the correct topic that you are publishing markers to.
+**A:** Make sure you add a Marker or MarkerArray display to Rviz, then make sure it is set to the correct topic that you are publishing markers to.
 
 **Q:** I added the marker topic to Rviz but still nothing shows, why?  
-*A:** Make sure you create markers in the map frame. 
+**A:** Make sure you create markers in the map frame. 
 
-**Q:** My `map_annotator` node can't find my csv file, why?
+**Q:** My `map_annotator` node can't find my csv file, why?  
 **A:** After building your workspace, the code is run from the `install` directory, so relative file paths will be different.  
 Try using absolute file paths instead.  
 
 **Q:** The robot won't move to the goal even though the `.csv` file and markers look correct, why?  
 **A:** Make sure all the information in the header of the `PoseStamped` message is correct like the frame and timestamp.
 
+
 ## Resources
 
+[How to Create Basic Markers in Rviz by The Construct](https://www.theconstruct.ai/ros-developers-live-class-24-create-basic-markers-ros-rviz/)  
+The Construct is an education organization focused on ROS and robotics.  
+They have many videos and articles like this one for all sorts of topics in robotics.  
+This one covers how to use markers, which are a great tool for quickly mocking UI features in Rviz to use your system(s).
+
+[Foxglove](https://foxglove.dev/)  
+Foxglove is another visualization and data management platform, similar to Rviz.  
+They offer many more advanced features above Rviz to justify their product.
+
+[Rerun](https://rerun.io/)  
+Rerun is another visualization plaform for "Physical AI", similar to Rviz and Foxglove.  
+They all have slightly different focus and features, but most of the core functionality is the same.  
+We use Rviz because it is the default with ROS2, but all of these should be accessible once you know the basics.  

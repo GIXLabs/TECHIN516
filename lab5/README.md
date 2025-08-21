@@ -57,15 +57,17 @@ Show yourself setting the nav goal, then the robot completing the task.
 
 5. Qualitatively, did you notice anything different between the two planner algorithms?
 
-6. Include your code from `lab5.ipynb`.
+6. How do you send a navigation goal from the command line?
 
-7. Attach the completed maze from running your script.  
+7. Include your code from `lab5.ipynb`.
+
+8. Attach the completed maze from running your script.  
 
 
 ## FAQ
 
 **Q:** My robot has a hard time moving around tight spaces, even though there's enough room, how do I make it work?  
-**A:** Checkout [this tutorial](https://www.youtube.com/watch?v=y2eq_yfpAQM&list=LL&index=12) from Muhammad Luqman about tuing the navigation parameters.  
+**A:** Checkout [this tutorial](https://www.youtube.com/watch?v=y2eq_yfpAQM&list=LL&index=12) from Muhammad Luqman about tuning the navigation parameters.  
 
 
 ## Resources
