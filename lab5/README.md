@@ -86,3 +86,7 @@ The documentation covers many topics and features we don't have time for, like [
 
 [A* explanation by Computerphile](https://www.youtube.com/watch?v=ySN5Wnu88nE)  
 Computerphile's channel is also full of great content specifically for computer science, many of which also apply to robotics.  
+
+[SLAMBotics SLAM System Comparison](https://www.slambotics.org/blog/which-slam-algorithm-should-i-choose)  
+There are many type SLAM systems, the one you use should be based on your constraints and resources.  
+There are many more systems than what's listed here, but it's a good list to get an overview of what's out there. 
