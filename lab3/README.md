@@ -90,6 +90,9 @@ Your ROS workspace will be saved because that folder is shared between the host 
 **All other files will be deleted!**  
 Make sure you backup anything you'll need later by moving the files to the shared workspace folder.  
 
+**Q:** Gazebo runs suuuuuper slowly, is there any way to speed it up?  
+**A:** Look into the Gazebo world's `.sdf` file. Consider changing the `<max_step_size>` parameter and/or adding a `<real_time_update_rate>` parameter as described [in this robotics stack exchange post](https://robotics.stackexchange.com/questions/26259/what-does-update-rate-control).
+
 **Q:** Lidar works in the flat world, but not the cube world, why?  
 **A:** All fields in the sdf file need to be consistent, including the title and the world name or else you might experience strange issues.
 
@@ -120,3 +123,7 @@ This video does a great job explaining how and why to use docker to develop robo
 
 [Gazebo Documentation](https://gazebosim.org/docs/dome/getstarted/)  
 Review the Gazebo documentation to learn more about robotic simulation. 
+
+[Black Coffee Robotics Guide to Speed Up Gazebo Simulations](https://www.blackcoffeerobotics.com/blog/gazebo-simulator-5-ways-to-speedup-simulations)  
+Black Coffee Robotics is an engineering firm specializing in robotics.  
+They have a lot of experience running efficient simulations and wrote this blog post to share some of their expertise.  
