@@ -1,6 +1,6 @@
 # Lab 2: Intro to Turtlebots
 
-![turtlebot3_exploded](/docs/turtlebot3_exploded.jpg)
+![turtlebot3_exploded](/assets/turtlebot3_exploded.jpg)
 
 During this class we will be using [Turtlebots](https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/) to learn more about robots and autonomy.  
 The lab has a selection of Turtlebot 3s and 4s.  
@@ -9,7 +9,7 @@ We will start with Turtlebot 3s to help you understand what components are invol
 
 ## Learning Objectives
 
-- What are the necessary components of a basic robot.
+- What are the necessary components of a basic differential-drive robot and how they connect.  
 - How to set-up a robotic system between the robot and your computer.
 - How to programmatically control a differential-drive robot.
 

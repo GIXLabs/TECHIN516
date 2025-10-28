@@ -1,6 +1,6 @@
 # Lab 3: Intro to Simulation
 
-![intro_to_simulation](/docs/turtle_in_the_matrix.png)
+![intro_to_simulation](/assets/turtle_in_the_matrix.png)
 
 In the previous lab, you ran the real robot without fully knowing what was going to happen.  
 This is fine for a small, slow Turtlebot, but can lead to serious injury in larger, faster systems.  

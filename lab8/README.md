@@ -24,7 +24,7 @@ Then you can update the state of the robot based on the outcome of the previous 
 This style of application can also be thought of as a "state machine".  
 
 For example, in this race, the first state (1) could be wall-following to map the maze.  
-Once the robot sees the apple, it can transition to state two (2) and return to the dock, and so on.  
+Once the robot sees the apple, it can transition to state two (2) and return to the dock, and so on...  
 
 For this lab, you will write one central ros node that keeps track of the robot state, and calls different "behaviors" as ros2 actions and services.  
 Some of the behaviors you need already exist (driving to a point on the map, docking the robot, etc.).  

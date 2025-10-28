@@ -1,6 +1,6 @@
 # Lab 1: Intro to Linux and ROS
 
-![welcome_to_techin516](/docs/graphic_design_is_my_passion.png)
+![welcome_to_techin516](/assets/graphic_design_is_my_passion.png)
 
 Most robotics technologies are developed for Linux.  
 All labs for the GIX robotics studios are to be completed in the Ubuntu 22.04 distribution of Linux.  
@@ -12,8 +12,9 @@ Thoroughly understanding the following content will make everything else in the 
 
 ## Learning Objectives
 
-- Functional understanding of Linux and the BASH terminal: how to navigate, run programs, manipulate data, etc.
-- Beginner understanding of ROS2 Humble: how nodes communicate, how to add new nodes, how do inspect what is happening in a robotic system.
+- Functional knowledge of Linux and the BASH terminal: how to navigate, run programs, manipulate data, etc.
+- Beginner's outline of ROS2 Humble: how nodes communicate, how to add new nodes, how do inspect what is happening in a robotic system.
+- Start to compile resources of where to look for help, links to documentation, and what terminology to use.  
 
 
 ## TODO

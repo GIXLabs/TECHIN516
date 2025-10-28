@@ -1,6 +1,6 @@
 # lab 4: Maze Solver
 
-![turtlebot4_lidar_frame](/docs/turtlebot4_lidar_frame.png)
+![turtlebot4_lidar_frame](/assets/turtlebot4_lidar_frame.png)
 
 In the last lab you learned about open versus closed loop control.  
 These simple examples could only drive straight, in this lab we explore more advanced closed loop control to solve mazes.  

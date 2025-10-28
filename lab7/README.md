@@ -1,6 +1,6 @@
 # Lab 7: Computer Vision
 
-![terminator_vision](/docs/terminator_vision.png)
+![terminator_vision](/assets/terminator_vision.png)
 
 Cameras are one of the most common sensors used to connect robots to the real world.  
 There are decades of research dedicated to understanding the world from photos and videos.  
