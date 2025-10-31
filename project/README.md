@@ -105,7 +105,7 @@ Forking this repo provides a good start for the code to control your new motor.
 
 - [Random Nerd Tutorials Raspberry Pi Guides](https://randomnerdtutorials.com/projects-raspberry-pi/)  
 You should choose a sensor that is well documented to work with Raspberry Pis.  
-Random Nerd Tutorials has many tutorials on how different sensors work
+Random Nerd Tutorials has many tutorials on how different sensors work.
 
 - [Fusion to URDF](https://github.com/syuntoku14/fusion2urdf)  
 This Fusion360 extension allows you to export robot descriptions from your model.  

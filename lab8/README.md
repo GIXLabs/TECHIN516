@@ -1,5 +1,7 @@
 # Lab 8: Putting It All Together
 
+![project example](/assets/behavior_tree.png)
+
 In this final lab, you will compete against your classmates to see who can finish a maze the fastest.  
 You will need to apply all the lessons so far, modify, and assemble your code from previous labs into a single application.  
 
@@ -69,9 +71,7 @@ Start by trying different parameters for navigation to see if the robot can go f
 
 ## Deliverables
 
-1. Submit the launch file you used to run the robot.  
-
-2. Submit your code for the 
+1. Submit your code.  
 
 2. Write a paragraph for each step of the sequence, and a conclusion paragraph:  
 Discuss your strategy, challenges, and how you overcame those challenges.  
@@ -82,6 +82,9 @@ Conclude with what else you could do to decrease the time required if you had mo
 
 ## FAQ
 
+**Q:** How do I define new behaviors and keep track of their states?  
+**A:** In ROS, you can develop features and track progress using [actions](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Actions/Understanding-ROS2-Actions.html).  
+Refer to the [ROS tutorials](https://docs.ros.org/en/humble/Tutorials/Intermediate/Writing-an-Action-Server-Client/Py.html) to see how to write new actions.  
 
 
 ## Resources
@@ -91,6 +94,7 @@ Conclude with what else you could do to decrease the time required if you had mo
 [Official ROS2 Launch File Documentation](https://docs.ros.org/en/humble/Tutorials/Intermediate/Launch/Creating-Launch-Files.html)
 
 [Nav2 Behavior Trees](https://docs.nav2.org/behavior_trees/index.html)
+
 
 [SMACC - State Machine Asynchronous C++](https://smacc.dev/)  
 This is linked to give you an idea of how other state machines are built, and what they are used for.  
