@@ -58,6 +58,8 @@ Your team will meet weekly with the instructors to discuss the weekly deliverabl
 
 - A short video demo of your robot performing its application
 - A Github repository containing the following:
+    - a `.devcontainer` with a `Dockerfile` and `devcontainer.json` purpose made for your project and your dependencies.  
+        Theorhetically, anyone who downloads your repo should be able to use your robot using your container environment.
     - All of your customized code required to use the robot
     - Contributions from all team members
     - A LICENSE file that complies with all dependencies' licenses
@@ -100,12 +102,16 @@ Also check out the new [gix_motor_driver.cpp file](https://github.com/GIXLabs/t5
 - [Example project](https://github.com/GIXLabs/t516_project_example)  
 This repo shows a basic example of this project.  
 This example adds a camera to identify dogs, and adds a motor to dispense dog treats.  
-As a team, you will be expected to take the project further than provided.  
+**You will be expected to take your project further than the example provided.**  
 Forking this repo provides a good start for the code to control your new motor.  
 
 - [Random Nerd Tutorials Raspberry Pi Guides](https://randomnerdtutorials.com/projects-raspberry-pi/)  
 You should choose a sensor that is well documented to work with Raspberry Pis.  
 Random Nerd Tutorials has many tutorials on how different sensors work.
+
+- [Devcontainer guide](/docs/vscode_devcontainers.md)  
+You are required to include a devcontainer configuration for your project.  
+Reference the guide above and the included resources to develop your own Docker container.  
 
 - [Fusion to URDF](https://github.com/syuntoku14/fusion2urdf)  
 This Fusion360 extension allows you to export robot descriptions from your model.  
