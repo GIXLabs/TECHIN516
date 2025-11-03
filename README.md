@@ -1,5 +1,7 @@
 # UW GIX MSTI TECHIN 516
 
+![project example](/assets/front_bots.jpg)
+
 Welcome to the first GIX MSTI robotics studio!
 
 Get started by cloning this repo with its submodules
