@@ -96,4 +96,4 @@ Many good short tutorials, good for getting more information on topics covered i
 Longer tutorials that roughly follow the official tutorials.
  
 [Linux File System/Structure Explained by DorianDotSlash](https://www.youtube.com/watch?v=HbgzrKJvDRw)  
-This video directory by directory explaining what each one is for.
+This video goes through all linux directories explaining what each one is for.
