@@ -1,5 +1,7 @@
 # Lab 6: Saving and Sending Navigation Goals
 
+![rviz_marker_example](/assets/for_the_love_of_the_game.png)
+
 Once you have a map for your robot, you can use it for applications.  
 This lab explores how to programmatically send and save navigation goals.  
 These capabilities can be used to remember semantic room and object locations to increase the autonomy of your system.  

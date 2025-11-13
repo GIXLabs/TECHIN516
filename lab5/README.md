@@ -1,5 +1,7 @@
 # Lab 5: Mapping and Navigation
 
+![solved_maze](/assets/a-star.png)
+
 Currently, most of the time, robots are used repeatedly in contained, controlled environments.  
 In environments like this, autonomous navigation is enabled by creating maps, and tracking the location of the robot using its sensors.  
 In this lab we will explore how to create maps, and how to navigate with them.  

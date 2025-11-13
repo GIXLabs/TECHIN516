@@ -1,7 +1,4 @@
-/turtlebot4_ws/src/*
-/turtlebot4_ws/log
-/turtlebot4_ws/build
-/turtlebot4_ws/install
+/turtlebot4_ws/*
 !/turtlebot4_ws/src/turtlebot4/
 !/turtlebot4_ws/src/turtlebot4_desktop/
 !/turtlebot4_ws/src/turtlebot4_simulator/
