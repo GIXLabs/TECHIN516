@@ -4,6 +4,7 @@
   "runArgs": [
     "--privileged",
     "--network=host",
+    "--gpus", "all",
     "-e", "DISPLAY=${localEnv:DISPLAY}"
   ],
   "workspaceMount": "source=${localWorkspaceFolder},target=/home/ubuntu/turtlebot4_ws,type=bind",

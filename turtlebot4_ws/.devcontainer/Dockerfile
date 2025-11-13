@@ -48,5 +48,6 @@ RUN sudo apt-get update && sudo apt-get install -y \
 RUN echo "source /home/ubuntu/turtlebot4_ws/install/setup.bash" >> ~/.bashrc
 RUN echo "export RMW_IMPLEMENTATION=rmw_fastrtps_cpp" >> ~/.bashrc
 RUN echo "export ROS_DOMAIN_ID=0 # change to your number" >> ~/.bashrc
+RUN echo "export LIBGL_ALWAYS_SOFTWARE=1" >> ~/.bashrc
 
 CMD ["bash"]
