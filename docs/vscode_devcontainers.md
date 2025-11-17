@@ -39,13 +39,3 @@ Bellow are the basic steps to configure a new devcontainer:
 
 5. Press \<Cntrl-Shift-P> to open VS Code's command menu, search for "rebuild and reopen in container" to build your new environment.  
     If you change the `Dockerfile` or `devcontainer.json` configuration files you will need to use this command to rebuild the environment for the changes to take affect. 
-
-
-## FAQ
-
-**Q:** When I build the container I get an error about GPUs, what do I do?  
-**A:** If your computer doesn't have a GPU, remove the line `"--gpus", "all",` from the `decontainer.json` file.
-
-**Q:** When I build the container, it seems to load forever, the last line says "Container started", how do I make it work?  
-**A:** Press the bottom left corner of VS Code and select "Close Remote Conncetion".  
-Then under the "Recent" choices, select "turtlebot4_ws [Dev Container]".  
