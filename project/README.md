@@ -30,7 +30,7 @@ Your team will meet weekly with the instructors to discuss the weekly deliverabl
 |  Week | TODO | Deliverable |
 | - | - | - |
 | 1 | Team formation<br>Concept ideation | Add team to class spreadsheet |
-| 2 | Have concept approved by teaching team | Concept sketches<br>Concept diagrams|
+| 2 | Have concept approved by teaching team | Concept sketches<br>Concept diagrams<br>Github repo|
 | 3 | Research existing examples | Sensor <> Raspberry Pi documented example<br>Sensor selection from lab or purchasing |
 | 4 | Actuator integration | Actuator progress |
 | 5 | Actuator integration | Working actuator |
@@ -38,7 +38,7 @@ Your team will meet weekly with the instructors to discuss the weekly deliverabl
 | 7 | Sensor integration | Working sensor |
 | 8 | Sketching / measuring / test printing | New body iteration 1|
 | 9 | Body refinement<br>Robot description (URDF) | New body iteration 2 |
-| 10 | Assemble components into an application | Launch file of functioning application |
+| 10 | Assemble components into an application | Launch file of functioning application<br>Rviz configuration for viewing the application |
 | 11 | | Final deliverables<br>Final presentation<br>[ Optional ] extra credit |
 
 
@@ -52,6 +52,17 @@ Your team will meet weekly with the instructors to discuss the weekly deliverabl
 - You must be able to teleoperate drive the robot from your computer
 - The body design must match its application
 - The desing and function must be reflected in Rviz
+
+
+## Weekly Deliverables
+
+Once a week, during class time, your team will meet with the teaching team for feedback and questions.  
+Your team is expected to follow the schedule outlined above.  
+Working ahead is encouraged.  
+Falling behind will not postpone future deadlines.  
+All team members are expected to equally contribute.  
+Progress and contributions will be tracked in your Github repo.  
+**All team members must also maintain personal progress logs to be submitted weekly.**
 
 
 ## Final Deliverables
