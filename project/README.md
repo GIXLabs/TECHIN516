@@ -64,6 +64,28 @@ All team members are expected to equally contribute.
 Progress and contributions will be tracked in your Github repo.  
 **All team members must also maintain personal progress logs to be submitted weekly.**
 
+Weekly personal progress logs must include:
+- Dates of when you were working and note-taking
+
+Logs may also include:
+- Outlines of work your agreed to take on
+- Setting intentions for deliverables
+- Ideas on how to approach said deliverables
+- Hypothesis about how systems might work
+- Links of resources reviewed
+- Notes on how external resources worked, and/or notes on why they didn't work
+- Step-by-step guides on how to recreate interesting results
+- Reflections on results, implications for your strategy and methodology
+- Explitives exploring your confusion about a topic
+- Plans for next steps
+
+You can use your favorite notes app: Google Docs, Obsidian, markdown files in your repo, Apple notes, etc.  
+You must not use generative AI.  
+These notes are meant to be personal to assist with your progress.  
+If you ever pursue a career as a researcher and/or developer, lab notes might be an expected deliverable in your work.  
+Regardless, good note taking can help you systematically break-down and approach technical problems.  
+By the end of the project, writing your README.md should be as simple as copying and cleaning sections of your notes.  
+
 
 ## Final Deliverables
 
