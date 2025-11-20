@@ -74,6 +74,10 @@ Show yourself setting the nav goal, then the robot completing the task.
 
 ## Resources
 
+[hello-slam repo by nstathou](https://github.com/nstathou/hello-slam)  
+This repo goes into some of the background hisotry, math, code, and theory that enables map generation, localization, and autonomous navigation.  
+Check out the Jupyter notebooks to learn morea about SLAM.  
+
 [Understanding SLAM guide from MATLAB](https://www.youtube.com/watch?v=saVZtgPyyJQ&list=PLn8PRpmsu08rLRGrnF-S6TyGrmcA2X7kg&index=3)  
 MATLAB is an awesome computing platform for engineers and scientist, from research to production.  
 Their YouTube chanel has a lot of awesome content.  
