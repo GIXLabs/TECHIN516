@@ -89,12 +89,24 @@ Refer to the [ROS tutorials](https://docs.ros.org/en/humble/Tutorials/Intermedia
 
 ## Resources
 
-[Official ROS2 tutorial on understanding Actions](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Actions/Understanding-ROS2-Actions.html)
+[Official ROS2 tutorial on understanding Actions](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Actions/Understanding-ROS2-Actions.html)  
+ROS2 actions are one way to develop "behaviors".  
+They provide a convenient interface for calling, reading feedback, cancelling behaviors, and reading results.  
 
-[Official ROS2 Launch File Documentation](https://docs.ros.org/en/humble/Tutorials/Intermediate/Launch/Creating-Launch-Files.html)
+[Official ROS2 Launch File Documentation](https://docs.ros.org/en/humble/Tutorials/Intermediate/Launch/Creating-Launch-Files.html)  
+Launch files are essential when you know you need to [run many ROS nodes at once](https://www.reddit.com/r/ROS/comments/1jn9rl4/you_will_not_regret/).  
+Launch files allow you to run many nodes in a single termainl which will save you a lot of time.
 
-[Nav2 Behavior Trees](https://docs.nav2.org/behavior_trees/index.html)
+[simple_launch](https://github.com/oKermorgant/simple_launch)  
+[better_launch](https://github.com/dfki-ric/better_launch)  
+The ROS2 launch system is far more complicated than it was in ROS1.  
+This has inspired attempts at simplifying it to make it more usable.  
+It is still worth learning the default system.  
+These alternatives provide another option if you have to write many launch files.  
 
+[Nav2 Behavior Trees](https://docs.nav2.org/behavior_trees/index.html)  
+Nav2 implements its own behavior trees specifically for handling different scenarios during navigation.  
+Check out their documentation to learn more.  
 
 [SMACC - State Machine Asynchronous C++](https://smacc.dev/)  
 This is linked to give you an idea of how other state machines are built, and what they are used for.  
