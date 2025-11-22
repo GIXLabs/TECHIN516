@@ -122,7 +122,7 @@ Checkout the original [Turtlebot 3 Manipulation repo](https://github.com/ROBOTIS
 Use the "XL430-W250" model since they don't list the "XL430-W250-T".  
 
 **Q:** I designed my robot with different wheels and/or different spacing and now it doesn't drive correctly.  
-**A:** You need to change [the parameters in the OpenCR firmware that you flash to the motor driver board](https://github.com/GIXLabs/T516_OpenCR/blob/master/arduino/opencr_arduino/opencr/libraries/turtlebot3_ros2/src/turtlebot3/turtlebot3.cpp#L26) to match your design.  
+**A:** You need to change [the parameters in the OpenCR firmware that you flash to the motor driver board](https://github.com/GIXLabs/t516_OpenCR/blob/69b02686272be6c74084ebffbdb7c25693043ec1/src/turtlebot3/turtlebot3.cpp#L25)) to match your design.  
 
 **Q:** I want to design a robot with a velocity controlled joint, how do I do that?  
 **A:** The OpenCR firmware in this repo was modified to handle a 3rd position controlled motor.  
