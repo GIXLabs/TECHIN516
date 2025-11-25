@@ -109,7 +109,7 @@ By the end of the project, writing your README.md should be as simple as copying
 ## Extra Credit
 
 **[ +5% ]** Modify the OpenCR firmware and ros2_control code to control the motor's velocity, not position.  
-Check out the [gix_motor git commit]() to see how the current 3rd motor works to start.  
+Check out the [gix_motor git commit](https://github.com/GIXLabs/t516_OpenCR/commit/69b02686272be6c74084ebffbdb7c25693043ec1) to see how the current 3rd motor works to start.  
 
 **[ +10% ]** Expand on your code to accurately simulate your design in a Gazebo simulation.  
 Checkout the original [Turtlebot 3 Manipulation repo](https://github.com/ROBOTIS-GIT/turtlebot3_manipulation) and the [Turtlebot 3 Manipulation Simulations repo](https://github.com/ROBOTIS-GIT/turtlebot3_manipulation_simulations) for a good place to start.
