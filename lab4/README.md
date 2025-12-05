@@ -78,7 +78,7 @@ Qualitatively, did the real-world behave differently than the simulation?
 **A:** There is a bug where the LiDAR sometimes doesn't simulate properly, try one of these solutions: [[1](https://robotics.stackexchange.com/questions/24883/turtlebot-4-simulation-rplidar-not-working), [2](https://www.linkedin.com/posts/rahgirrafi_ros2-turtlebot4-gazebo-activity-7284297279061028864-JWBu?utm_source=share&utm_medium=member_desktop)].
 
 **Q:** How do I connect to the real robot?  
-**A:** Refer to the [documentation](https://turtlebot.github.io/turtlebot4-user-manual/software/turtlebot4_robot.html)
+**A:** Refer to the [connection guide](/docs/connecting_to_the_turtlebots.md) in the docs.  
 
 **Q:** These plots are taking forever, my laptop runs Gazebo really slowly, what do I do?  
 **A:** You can change the script so the P, I, and D values can be provided as ros parameters or python arguments, then you can script your computer to run simulations sequentially, then you can run it overnight and wake up to your completed work.  

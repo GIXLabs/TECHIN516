@@ -18,9 +18,11 @@ Docker containers are used to isolate systems on the same computer and ensure ev
     Once you have VS Code open, go to the extensions tab and download the "Remote Development" extension.  
     This extension includes the "Dev Container" extension that allows you to use containers inside of VS Code with the source code mounted from your regular drive. 
     This makes it much easier to manage your code and the environment.  
+
 3. Clone the Class Repo.  
     Inside of VS Code, open the folder called `turtlebot4_ws`.
-    VS Code should throw a pop-up that says "Reopen in container" - press this to access a ore-configured development environment with all the necessary dependencies to work with the Turtlebot 4s.
+    VS Code should throw a pop-up that says "Reopen in container" - press this to access a ore-configured development environment with all the necessary dependencies to work with the Turtlebot 4s.  
+    If you get an error about running docker without sudo, restart your computer and retry.  
 
 
 ## Make Your Own Dev Container

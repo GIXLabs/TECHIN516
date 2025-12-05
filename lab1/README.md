@@ -23,6 +23,7 @@ Thoroughly understanding the following content will make everything else in the 
 1. Dual-boot [Ubuntu 24.04 LTS](https://ubuntu.com/download/desktop) on your computer.
 
 2. Build and enter the devcontainer.  
+Refer to the [Docker guide](/docs/vscode_devcontainers.md) in the docs.  
 [Install Docker](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04); make sure you can run `docker` commands without `sudo`.  
 Install the [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) extension for VS Code or Cursor.  
 In a new VS Code or Cursor window, open the `turtlebot_ws` directory in this repo.  
