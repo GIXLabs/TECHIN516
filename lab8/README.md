@@ -5,14 +5,14 @@
 In this final lab, you will compete against your classmates to see who can finish a maze the fastest.  
 You will need to apply all the lessons so far, modify, and assemble your code from previous labs into a single application.  
 
-The instructors will design a randomized maze with an apple somewhere inside.  
+The instructors will design a randomized maze with an aruco cube somewhere inside.  
 Everyone will begin at the same starting position on the Turtlebot 4's dock.  
 The robot will need to complete the following sequence:
 
 1. Search the maze and generate a map. 
-2. Use the depth camera and object recognition to identify where the apple is in the map.
+2. Use computer vision to identify where the aruco cube is in the map.
 3. Return to the start position.
-4. Drive from the start position to within 10cm of the apple.
+4. Drive from the start position to within 10cm of the aruco cube.
 
 The total time required to complete the sequence above will be measured and ranked against your classmates.  
 You will need to apply everything you've learned so far; you are also encouraged to try new things.  
@@ -26,7 +26,7 @@ Then you can update the state of the robot based on the outcome of the previous 
 This style of application can also be thought of as a "state machine".  
 
 For example, in this race, the first state (1) could be wall-following to map the maze.  
-Once the robot sees the apple, it can transition to state two (2) and return to the dock, and so on...  
+Once the robot sees the aruco cube, it can transition to state two (2) and return to the dock, and so on...  
 
 For this lab, you will write one central ros node that keeps track of the robot state, and calls different "behaviors" as ros2 actions and services.  
 Some of the behaviors you need already exist (driving to a point on the map, docking the robot, etc.).  
@@ -48,8 +48,8 @@ You are welcome to work on it any way you would like within the guideline given 
 
 1. Start by getting every step in the sequence working using modified code from previous labs.  
 i. Make sure your wall-follower script still works.  
-ii. Make sure you can identify an apple with the camera.  
-iii. Create a ros action that explores the maze, creates a map, and stops when it see the apple.  
+ii. Make sure you can identify the aruco cube with the camera.  
+iii. Create a ros action that explores the maze, creates a map, and stops when it see the aruco cube.  
 iv. Research how to send navigation goals from python instead of Rviz.  
 v. Use the Turtlebot's built-in docking function.  
 
@@ -89,9 +89,14 @@ Refer to the [ROS tutorials](https://docs.ros.org/en/humble/Tutorials/Intermedia
 
 ## Resources
 
-[Official ROS2 tutorial on understanding Actions](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Actions/Understanding-ROS2-Actions.html)  
+[Official ROS2 Tutorial on Understanding Actions](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Actions/Understanding-ROS2-Actions.html)  
 ROS2 actions are one way to develop "behaviors".  
 They provide a convenient interface for calling, reading feedback, cancelling behaviors, and reading results.  
+
+[OpenCV Guide on Detecting Aruco Markers](https://docs.opencv.org/4.x/d5/dae/tutorial_aruco_detection.html)  
+Aruco codes are like QR codes, except they encode numbers instead of links.  
+They are easily identifiable using computer vision.  
+If you know the size of the tag, you can estimate the pose without the need for the camera's depth topic.  
 
 [Official ROS2 Launch File Documentation](https://docs.ros.org/en/humble/Tutorials/Intermediate/Launch/Creating-Launch-Files.html)  
 Launch files are essential when you know you need to [run many ROS nodes at once](https://www.reddit.com/r/ROS/comments/1jn9rl4/you_will_not_regret/).  
