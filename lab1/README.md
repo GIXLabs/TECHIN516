@@ -66,7 +66,7 @@ Copy and paste the table into your lab report to fill-in.
     | `chmod` | | |
     | `chown` | | |
     | `*` (e.g. `rm ./*`) | | | 
-    | `\|` (e.g. `cat ./fil1.txt \| grep search`) | | | 
+    | `\|` (e.g. `cat ./file1.txt \| grep search`) | | | 
     | `.` (e.g. `python ./script.py`) | | | 
     | `..` (e.g. `cd ..`) | | | 
     | `~` (e.g. `source ~/.bashrc`)| | | 
