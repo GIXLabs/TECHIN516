@@ -40,9 +40,13 @@ You do not need to complete any tutorials using C++, only the python tutorials.
 
 1. Submit your code for the tutorial "Writing a simple publisher and subscriber (Python)".
 
-2. Submit a link to the bag file you recorded in the tutorial "Recording and playing back data".
+2. Submit a link to a video of your publisher and subscriber working across 2 different terminals.  
+The easiest way to submit a video is to upload it to your UW Google Drive.  
+Make sure the share permissions allow the reader/grader to view it.  
 
-3. Fill in the description and a (different) example for each of the bash commands in the following table.  
+3. Submit a link to the bag file you recorded in the tutorial "Recording and playing back data".
+
+4. Fill in the description and a (different) example for each of the bash commands in the following table.  
 Copy and paste the table into your lab report to fill-in.  
 **Hint:** for most commands and programs, you can append `--help` or `-h` to learn more about it; e.g. `ls --help`.
 
@@ -102,6 +106,10 @@ Make sure you backup anything you'll need later by moving the files to the share
 **Q:** When I build the container, it seems to load forever, the last line says "Container started", how do I make it work?  
 **A:** Press the bottom left corner of VS Code and select "Close Remote Conncetion".  
 Then under the "Recent" choices, select "turtlebot4_ws [Dev Container]".  
+
+**Q:** How do I record my screen on Ubuntu?  
+**A:** The built-in screenshot tool works well.  
+Search for it by pressing the Windows key and searching for "screenshot".  
 
 
 ## Resources
