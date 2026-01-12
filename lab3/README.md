@@ -23,7 +23,7 @@ Move the `flat.sdf` file into that folder, and provide it as an argument to open
 Drive around using the teleop node to confirm everything works.  
 
 2. Comment out dock spawning in the simulation launch file.
-Read through the launch files again to identify which lines spawn the Turtlebot 4's docking station.  
+Read through the launch file(s) again to identify which lines spawn the Turtlebot 4's docking station.  
 Comment out those lines so the dock doesn't get in the way of immediately driving around.  
 
 3. Complete the `TODOs` in `plot_odom.py`.  
@@ -48,23 +48,21 @@ Copy this script into your `lab3` ros2 python package, complete all `TODOs`, and
 
 ## Deliverables
 
-1. How is the turtlebot4_ws mounted into the devcontainer?  
+1. Write down which file you modifed to remove the dock from simulation, and copy in the lines you commented out.
 
-2. Write down which file you modifed to remove the dock from simulation, and copy in the lines you commented out.
+2. Submit your modified code that you used to plot the robot's position.  
 
-3. Submit your modified code that you used to plot the robot's position.  
+3. Attach the plot from running your circle_driver script.
 
-4. Attach the plot from running your circle_driver script.
+4. Submit your modified `.sdf` file to show how you added the cube.  
 
-5. Submit your modified `.sdf` file to show how you added the cube.  
+5. Submit your modified open-loop code,
 
-6. Submit your modified open-loop code,
+6. Attach your plots from running open-loop control.
 
-7. Attach your plots from running open-loop control.
+7. Submit your modified closed-loop code.  
 
-8. Submit your modified closed-loop code.  
-
-9. Attach your plots from running closed-loop control. 
+8. Attach your plots from running closed-loop control. 
 
 
 ## FAQ

@@ -54,20 +54,24 @@ For each of the following table rows, change the P, I, and D values and plot the
 
 1. Submit your completed `wall_follower.py` script.
 
-2. What is the minimum and maximum oscilations for each of the PID value rows?  
+2. Submit your code to plot wall distance.
 
-3. What custom values did you choose?  
+3. What is the minimum and maximum oscilations for each of the PID value rows?  
+
+4. What custom values did you choose?  
 How did you choose these values?
 
-4. Qualitatively, how well does this script explore the maze world?  
+5. Submit your wall-distance plot from running the simulation with your custom PID values.  
+
+6. Qualitatively, how well does this script explore the maze world?  
 Does it explore the whole area?  
 How would you suggest to improve the controller to explore more efficiently?  
 
-5. Attach the video of the real-world experiment.
+7. Attach the video of the real-world experiment.
 
-6. Attach the plot of the real-world experiment.
+8. Attach the plot of the real-world experiment.
 
-7. How did the real-world compare to the simulation?  
+9. How did the real-world compare to the simulation?  
 Quantitatively, how did the min and max oscilation values compare in each scenario?  
 Qualitatively, did the real-world behave differently than the simulation?
 
