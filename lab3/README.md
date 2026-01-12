@@ -89,10 +89,6 @@ You can also modify the code to save the plot automatically.
 
 ## Resources
 
-[Intro to Docker by typecraft](https://www.youtube.com/watch?v=Ud7Npgi6x8E)  
-Good overview of how Docker generally works.  
-Most of this is handled by VS Code or Cursor when we use devcontainers.  
-
 [Turtlebot 4 user manual](https://turtlebot.github.io/turtlebot4-user-manual/)  
 Any well-made robot you use should have documentation.  
 This documentation should be the first place you look if you have any questions or issues.

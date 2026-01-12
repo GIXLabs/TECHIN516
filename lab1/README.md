@@ -83,7 +83,7 @@ Copy and paste the table into your lab report to fill-in.
 
 **Q:** I have an M-series Mac, what should I do?  
 **A:** Consider purchasing a (non-ARM) Winows and/or Linux computer if you would like to pursue a career in robotics.  
-Alternatively, speak with the professor about borrowing a laptop from GIX IT for a short period of time.
+Alternatively, you can use the desktops in the robotics lab area and sign in with your UW net-ID.
 
 **Q:** Can I use a virtual machine instead of dual-booting?  
 **A:** Virtual machines work for some basic features of Ubuntu and ROS2.  
@@ -117,6 +117,10 @@ Search for it by pressing the Windows key and searching for "screenshot".
 [MIT Missing Semester IAP 2020](https://www.youtube.com/playlist?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J)  
 Many good lectures covering many applicable computer-science topics, including Linux.  
 Highly recommend you watch [lecture 1](https://www.youtube.com/watch?v=Z56Jmr9Z34Q&t=771s) if you have never used Linux before.  
+
+[Intro to Docker by typecraft](https://www.youtube.com/watch?v=Ud7Npgi6x8E)  
+Good overview of how Docker generally works.  
+Most of this is handled by VS Code or Cursor when we use devcontainers. 
 
 [ROS2 Humble YouTube tutorials by Kevin Wood](https://www.youtube.com/playlist?list=PLSK7NtBWwmpTS_YVfjeN3ZzIxItI1P_Sr)  
 Many good short tutorials, good for getting more information on topics covered in the official ROS tutorials.
