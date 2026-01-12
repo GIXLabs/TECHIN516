@@ -105,6 +105,7 @@ By the end of the project, writing your README.md should be as simple as copying
 - A short presentation in front of the class containing:
     - A brief explanation of your design, application, and motivation
     - A working demo of the robot performing its purpose
+- Return all materials
 
 
 ## Extra Credit
