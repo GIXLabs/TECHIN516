@@ -28,6 +28,7 @@ Thoroughly understanding the following content will make everything else in the 
     ```
     The `--recursive` options also clones all the Turtlebot repos located in `turtlebot4_ws/src/`.  
     The scripts in this repo will not work properly without them.  
+    If you already cloned the repo without this option, delete the repo and re-clone.
 
 3. Build and enter the devcontainer.  
 Refer to the [Docker guide](/docs/vscode_devcontainers.md) in the docs.  
@@ -58,7 +59,7 @@ Make sure the share permissions allow the reader/grader to view it.
 Copy and paste the table into your lab report to fill-in.  
 **Hint:** for most commands and programs, you can append `--help` or `-h` to learn more about it; e.g. `ls --help`.
 
-    | Command | Description | Example |
+    | Command | Description | Text example of how to use the command |
     | - | - | - | 
     | `ls` | | | 
     | `ls -la` | | |
