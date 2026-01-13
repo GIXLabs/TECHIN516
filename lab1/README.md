@@ -22,7 +22,14 @@ Thoroughly understanding the following content will make everything else in the 
 
 1. Dual-boot [Ubuntu 24.04 LTS](https://ubuntu.com/download/desktop) on your computer.
 
-2. Build and enter the devcontainer.  
+2. Clone the class repo with all dependencies:
+    ```bash
+    git clone --recursive https://github.com/GIXLabs/TECHIN516.git
+    ```
+    The `--recursive` options also clones all the Turtlebot repos located in `turtlebot4_ws/src/`.  
+    The scripts in this repo will not work properly without them.  
+
+3. Build and enter the devcontainer.  
 Refer to the [Docker guide](/docs/vscode_devcontainers.md) in the docs.  
 [Install Docker](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04); make sure you can run `docker` commands without `sudo`.  
 Install the [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) extension for VS Code or Cursor.  
@@ -30,10 +37,11 @@ In a new VS Code or Cursor window, open the `turtlebot_ws` directory in this rep
 Reopen the directory in the container.  
 Build the ROS workspace inside the container.
 
-3. Complete all [ROS 2 Humble tutorials](https://docs.ros.org/en/humble/Tutorials.html) through "Using `ros2doctor` to identify issues".  
+
+4. Complete all [ROS 2 Humble tutorials](https://docs.ros.org/en/humble/Tutorials.html) through "Using `ros2doctor` to identify issues".  
 You do not need to complete any tutorials using C++, only the python tutorials.
 
-4. Read the remaining tutorials through the end of the intermediate section, "RViz".
+5. Read the remaining tutorials through the end of the intermediate section, "RViz".
 
 
 ## Deliverables
