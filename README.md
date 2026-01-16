@@ -21,3 +21,14 @@ Title the notebook like: `lab1_your_name.ipynb`.
 An [example lab report is available in this repo](/lab_report_example.ipynb).
 
 **Any lab question, and any part of provided code, may be used as a question in the weekly quizzes.**
+
+
+## Acknowledgements
+
+Many of the instructions are based on the following resources:
+- [ROS 2 Humble Documentation](https://docs.ros.org/en/humble/Tutorials.html)
+- [Turtlebot 3 Manual](https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/)
+- [Turtlebot 3 Manipulation Github](https://github.com/ROBOTIS-GIT/turtlebot3_manipulation)
+- [Turtlebot 4 Manual](https://turtlebot.github.io/turtlebot4-user-manual/)
+- [Turtlebot 4 Github](https://github.com/turtlebot)
+
