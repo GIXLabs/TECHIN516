@@ -42,7 +42,6 @@ Run the script 3 times while plotting the results.
 
 6. Finish this script for closed loop control; plot the results 3 times.
 This script will use the LiDAR sensor to check how much the robot has moved.  
-The first value in the LiDAR message should be distance straight ahead.  
 Copy this script into your `lab3` ros2 python package, complete all `TODOs`, and run it 3 times while plotting the results.  
 
 
