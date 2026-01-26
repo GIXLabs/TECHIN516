@@ -40,7 +40,7 @@ The goal is to move 2 meters forwards.
 Choose a speed, and calculate how much time is required to move 2m at that speed.  
 Run the script 3 times while plotting the results.  
 
-6. Finish this script for closed loop control; plot the results 3 times.
+6. Finish this script for closed loop control; plot the results 3 times.  
 This script will use the LiDAR sensor to check how much the robot has moved.  
 Copy this script into your `lab3` ros2 python package, complete all `TODOs`, and run it 3 times while plotting the results.  
 
