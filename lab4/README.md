@@ -26,12 +26,12 @@ Reference the photo above, notice how the LiDAR frame is different than the robo
 
 3. Create a copy of your `plot_odom.py` script as `plot_wall_distance.py` in the new package.  
 Modify the script to plot distance from the wall over time.  
-The deliverable will ask for min and max oscilations, you can make this script print those values for convenience.  
+The deliverable will ask for absolute oscillations, you can make this script print those values for convenience.  
 
 4. Copy the `walls.sdf` Gazebo world into the worlds folder from the previous lab.  
 
 5. Test your wall_follower script in the `walls.sdf` world.  
-For each of the following table rows, change the P, I, and D values and plot the results to measure the oscilations as the robot completes a loop around the walls. 
+For each of the following table rows, change the P, I, and D values and plot the results to measure the absolute oscillations as the robot completes a loop around the walls. 
 
     | Case | Kp | Ki | Kd |
     | - | - | - | - |
@@ -57,7 +57,7 @@ For each of the following table rows, change the P, I, and D values and plot the
 
 2. Submit your code to plot wall distance.
 
-3. What is the minimum and maximum oscilations for each of the PID value rows?  
+3. What is the absolute oscillations for each of the PID value rows?  
 
 4. What custom values did you choose?  
 How did you choose these values?
@@ -73,7 +73,7 @@ How would you suggest to improve the controller to explore more efficiently?
 8. Attach the plot of the real-world experiment.
 
 9. How did the real-world compare to the simulation?  
-Quantitatively, how did the min and max oscilation values compare in each scenario?  
+Qualitatively, how did the absolute oscillation values compare in each scenario?  
 Qualitatively, did the real-world behave differently than the simulation?
 
 
