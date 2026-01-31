@@ -74,6 +74,7 @@ class WallFollowPIDNode(Node):
         angle_increment = self.last_scan.angle_increment
 
         front_index = # TODO: what is the index of the range value towards the front of the robot?
+        # hint: it's not the start of the list
         # add +/- 10 degrees / 0.17 radians to look a little to each side as well
         front_indices = np.arange(int(front_index - (0.17 / angle_increment)),
                                   int(front_index + (0.17 / angle_increment)))
