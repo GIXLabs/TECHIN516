@@ -89,6 +89,7 @@ class WallFollowPIDNode(Node):
         pub_msg = # TODO: what type of message should you publish to drive the robot?
         if dist_front < 1:
             # TODO: how should the twist message change if there's a wall approaching?
+            # the robot should always keep driving - so how should it turn?
         else:
             z = self.pid(dist_right, dt)
             pub_msg.angular.z = z

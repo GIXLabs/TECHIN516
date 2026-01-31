@@ -21,6 +21,7 @@ You could use a similar controller to stay in the middle of a road lane, or cont
 1. Create a new python package called `lab4` and copy in the `wall_follower.py` script.  
 
 2. Complete all `TODOs` in the script.  
+Fill in the missing code so the robot continuously drives around the `wall.sdf` world.  
 Reference the photo above, notice how the LiDAR frame is different than the robot's base frame.  
 
 3. Create a copy of your `plot_odom.py` script as `plot_wall_distance.py` in the new package.  
