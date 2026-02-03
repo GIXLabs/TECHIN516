@@ -13,13 +13,16 @@ Docker containers are used to isolate systems on the same computer and ensure ev
     Follow a tutorial for your operating system; [this](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04) is a good one for Ubuntu 22.  
     Make sure you follow through step 2 to ensure you can run docker commands without the need for `sudo`.
 
-2. Download VS Code and Extensions.
+2. If you have a GPU, install the [Nvidia Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html).  
+    Make sure you can run the [sample workload](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/sample-workload.html) before proceeding.  
+
+3. Download VS Code and Extensions.
     Next download [VS Code](https://code.visualstudio.com/download).  
     Once you have VS Code open, go to the extensions tab and download the "Remote Development" extension.  
     This extension includes the "Dev Container" extension that allows you to use containers inside of VS Code with the source code mounted from your regular drive. 
     This makes it much easier to manage your code and the environment.  
 
-3. Clone the Class Repo.  
+4. Clone the Class Repo.  
     Inside of VS Code, open the folder called `turtlebot4_ws`.
     VS Code should throw a pop-up that says "Reopen in container" - press this to access a ore-configured development environment with all the necessary dependencies to work with the Turtlebot 4s.  
     If you get an error about running docker without sudo, restart your computer and retry.  
