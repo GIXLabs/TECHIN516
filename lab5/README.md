@@ -35,11 +35,10 @@ Play around with the waypoints tools to send multilpe goals.
 Create a new map of the mini mazes in the robotics lab.  
 Send nav goals to the real robot.  
 
-8. Compare Dijkstra and A* planner algorithms.  
-Once you have a map of the real maze, make the robot navigate from one corner to another a few times to compare path planning algorithms.  
+8. Run both Dijkstra and A* planner algorithms.  
+Once you have a map of the real maze, make the robot navigate from one corner to anoother using both path planning algorithms.  
 First, look into the [config file](https://github.com/turtlebot/turtlebot4/blob/humble/turtlebot4_navigation/config/nav2.yaml) and [documentation](https://docs.nav2.org/index.html) to learn which planner is used, and how to switch.  
-For each algorithm, navigate from one corner to another 3 times.  
-Record how much time it takes to reach the goal in each test, and average the times by algorithm.  
+For each algorithm, navigate from one corner to another.  
 Make sure you re-build, and re-source your workspace after changing the `.yaml` file.  
 
 9. Complete the `TODO`s in `lab5.ipynb` in this folder.  
@@ -55,15 +54,11 @@ Show yourself setting the nav goal, then the robot completing the task.
 
 3. Which planner algorithm is used by default on the Turtlebot4?
 
-4. Include your timing results, and averages per algorithm.
+4. How do you send a navigation goal from the command line?
 
-5. Qualitatively, did you notice anything different between the two planner algorithms?
+5. Include your code from `lab5.ipynb`.
 
-6. How do you send a navigation goal from the command line?
-
-7. Include your code from `lab5.ipynb`.
-
-8. Attach the completed maze from running your script.  
+6. Attach the completed maze from running your script.  
 
 
 ## FAQ
