@@ -20,6 +20,7 @@ In this lab, we will work through the basics of stereo depth and object recognit
 
 3. Read through the yolo_ros page, launch the version with 3D object segmentation that publishes markers for Rviz.  
 Note: you will need to remap ros topics from the image topic provided by the OakD camera on the Turtlebot to the topic that the yolo package expects.  
+You might also need to set `depth_image_units_divisor:=1` to correct the units of the markers.  
 
 4. Create a new package called `lab7`.  
 Write a new python node that subscribes to the `/yolo/detections` and `/oakd/rgb/preview/depth` topics.  
